@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="UIKitLab" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NRs-af-1eM">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ydt-hK-VDi">
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="1Ju-i4-3H3">
+                                <segments>
+                                    <segment title="First"/>
+                                    <segment title="Second"/>
+                                </segments>
+                            </segmentedControl>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Wnf-8V-MJQ">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="97" id="dvC-sL-IEy"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="hZS-sT-ySG">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="114" id="KjJ-AH-ln8"/>
+                                </constraints>
+                            </slider>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fjS-Y4-95z"/>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Ig6-wt-e4Q">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="fGK-hQ-5y1"/>
+                                </constraints>
+                            </progressView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="ZeA-du-8U0"/>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="cy7-f5-FoG"/>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="ank-cq-f0d"/>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ank-cq-f0d" firstAttribute="top" secondItem="cy7-f5-FoG" secondAttribute="bottom" constant="8" symbolic="YES" id="1If-iJ-xH1"/>
+                            <constraint firstItem="ZeA-du-8U0" firstAttribute="leading" secondItem="cy7-f5-FoG" secondAttribute="leading" id="2us-7I-pT3"/>
+                            <constraint firstItem="ydt-hK-VDi" firstAttribute="top" secondItem="NRs-af-1eM" secondAttribute="bottom" constant="8" symbolic="YES" id="34U-2k-EYw"/>
+                            <constraint firstItem="1Ju-i4-3H3" firstAttribute="top" secondItem="ydt-hK-VDi" secondAttribute="bottom" constant="8" symbolic="YES" id="6aR-hp-jy8"/>
+                            <constraint firstItem="cy7-f5-FoG" firstAttribute="leading" secondItem="ank-cq-f0d" secondAttribute="leading" id="Aoo-Ea-gmR"/>
+                            <constraint firstItem="1Ju-i4-3H3" firstAttribute="leading" secondItem="Wnf-8V-MJQ" secondAttribute="leading" id="D0w-Bp-SXj"/>
+                            <constraint firstItem="Ig6-wt-e4Q" firstAttribute="leading" secondItem="ZeA-du-8U0" secondAttribute="leading" id="OkB-mO-YT5"/>
+                            <constraint firstItem="Wnf-8V-MJQ" firstAttribute="leading" secondItem="hZS-sT-ySG" secondAttribute="leading" id="QHS-Dd-WmI"/>
+                            <constraint firstItem="Wnf-8V-MJQ" firstAttribute="top" secondItem="1Ju-i4-3H3" secondAttribute="bottom" constant="8" symbolic="YES" id="TXG-Qd-AN4"/>
+                            <constraint firstItem="ZeA-du-8U0" firstAttribute="top" secondItem="Ig6-wt-e4Q" secondAttribute="bottom" constant="8" symbolic="YES" id="WYu-z4-ecz"/>
+                            <constraint firstItem="hZS-sT-ySG" firstAttribute="top" secondItem="Wnf-8V-MJQ" secondAttribute="bottom" constant="8" symbolic="YES" id="Ynw-bz-7W0"/>
+                            <constraint firstItem="ydt-hK-VDi" firstAttribute="leading" secondItem="1Ju-i4-3H3" secondAttribute="leading" id="bCP-zm-Cx0"/>
+                            <constraint firstItem="NRs-af-1eM" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="beU-P6-WZD"/>
+                            <constraint firstItem="fjS-Y4-95z" firstAttribute="top" secondItem="hZS-sT-ySG" secondAttribute="bottom" constant="8" symbolic="YES" id="gP9-78-FRk"/>
+                            <constraint firstItem="Ig6-wt-e4Q" firstAttribute="top" secondItem="fjS-Y4-95z" secondAttribute="bottom" constant="8" symbolic="YES" id="gZf-r2-LyK"/>
+                            <constraint firstItem="NRs-af-1eM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="i31-cR-z5u"/>
+                            <constraint firstItem="NRs-af-1eM" firstAttribute="leading" secondItem="ydt-hK-VDi" secondAttribute="leading" id="kOS-Xw-HOy"/>
+                            <constraint firstItem="cy7-f5-FoG" firstAttribute="top" secondItem="ZeA-du-8U0" secondAttribute="bottom" constant="8" symbolic="YES" id="qwS-IO-6bE"/>
+                            <constraint firstItem="hZS-sT-ySG" firstAttribute="leading" secondItem="fjS-Y4-95z" secondAttribute="leading" id="x6M-2L-qHO"/>
+                            <constraint firstItem="fjS-Y4-95z" firstAttribute="leading" secondItem="Ig6-wt-e4Q" secondAttribute="leading" id="zj0-Hr-JbF"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
