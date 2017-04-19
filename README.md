@@ -123,6 +123,8 @@ Much like the page control, steppers are generally used in conjunction with some
 
 That's all the UI elements we're going to cover in this lesson, although there are plenty more that you'll be introduced to later on. For now, go ahead and build and run your application. Play with the elements you created a bit to see how you can interact with them. They won't do anything useful yet, but it's good to know what's provided by UIKit so you can make good use of these elements in your own apps.
 
+Guys you should consider cheking your work. I love the way you teach, but these bugs are disappointing a bit.
+
 ![UI elements in action](http://i.imgur.com/9c9J9uW.png)
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/swift-uiElements-readme'>UIKit</a> on Learn.co and start learning to code for free.</p>
