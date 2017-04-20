@@ -55,7 +55,7 @@ Segmented controls aren't as commonly used as buttons and labels, but they can b
 
 ### Text Fields
 
-A _text field_ allows users to type text into your application. They are very useful for getting free-form text from the user. Your application can then grab that text and do something interesting or userful with it.
+A _text field_ allows users to type text into your application. They are very useful for getting free-form text from the user. Your application can then grab that text and do something interesting or useful with it.
 
 Find a text field in the object library and drag it to your main view. (Make sure you don't add a _text view_ instead!) Put it under your segmented control, so your UI looks like this:
 
@@ -97,9 +97,9 @@ Like progress indicators, _activity indicators_ are used to let your users know 
 
 Drag an activity indicator from the library and put it below your progress indicator:
 
-![Progress indicators](http://i.imgur.com/7vKbmTR.png)
+![Activity indicators](http://i.imgur.com/7vKbmTR.png)
 
-You've no doubt seen progress indicators many times when using iOS apps. They're rarely something a user _wants_ to see, but they at least let the user know that your app is busy doing something useful.
+You've no doubt seen activity indicators many times when using iOS apps. They're rarely something a user _wants_ to see, but they at least let the user know that your app is busy doing something useful.
 
 ### Page Controls
 
@@ -109,7 +109,7 @@ Drag a page control from the object library and put it below the activity indica
 
 ![Page controls](http://i.imgur.com/v0VJOB0.png)
 
-It's a bit hard to see in this screenshot, but you can sort of see the two little square boxes that appear when it is selected. The thing about page controls is that they're not terribly userful until they're configured and attached to another view. They're very much a navigation element, and you won't see them that often, but occasionally they can be very useful.
+It's a bit hard to see in this screenshot, but you can sort of see the two little square boxes that appear when it is selected. The thing about page controls is that they're not terribly useful until they're configured and attached to another view. They're very much a navigation element, and you won't see them that often, but occasionally they can be very useful.
 
 ### Steppers
 
