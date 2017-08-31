@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8E7FEC42CC8D3A805FA4455A597BE514E865D8FC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8E7FEC42CC8D3A805FA4455A597BE514E865D8FC" : 9223372036854775807,
+    "9E597BBE87E95B2839A79FC65E398B71517818AF" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A6A21D5F-B3C0-4E21-839C-5EC518EDB3C2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8E7FEC42CC8D3A805FA4455A597BE514E865D8FC" : "swift-uiElements-readme-swift-intro-000\/",
+    "9E597BBE87E95B2839A79FC65E398B71517818AF" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "swift-uiElements-readme-swift-intro-000",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "swift-uiElements-readme-swift-intro-000\/swift-uiElements-readme-swift-intro-000.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/samudrar\/swift-uiElements-readme-swift-intro-000.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8E7FEC42CC8D3A805FA4455A597BE514E865D8FC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/samudrar\/swift-interfaceBuilder-lab-swift-intro-000.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9E597BBE87E95B2839A79FC65E398B71517818AF"
+    }
+  ]
+}
