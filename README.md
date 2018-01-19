@@ -21,7 +21,7 @@ iOS includes a framework called _UIKit_. UIKit provides you with a standard set 
 
 To begin this investigation, create a new iOS project in Xcode. You can use the single-view application template provided with Xcode.
 
-### Labels
+### Label
 
 _Labels_, also known as `UILabel`s, are the most basic way to display strings of text in your app. You've already seen a few labels in your previous lessons, and should be pretty comfortable with them by now. Just for old time's sake, go ahead and drag a label onto your app's main view. You can find it in the object library in the bottom right corner of Xcode's main window. (You _do_ remember where that is and how to filter for labels, right?) Drop it in the top left corner of the application, so it looks like this:
 
